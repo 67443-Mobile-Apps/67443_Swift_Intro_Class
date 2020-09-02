@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "5172F03F6AE4F0BE22A1853E701154F742B30265",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "69C595B0E990B9C9650DD7769FFE16ECEAE34194" : 0,
+    "5172F03F6AE4F0BE22A1853E701154F742B30265" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "578ED3AC-9DA4-4826-87C3-55750DF238AF",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "69C595B0E990B9C9650DD7769FFE16ECEAE34194" : "SwiftPlaygrounds",
+    "5172F03F6AE4F0BE22A1853E701154F742B30265" : "67442_Swift_Overview\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Lecture2",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Lecture2.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:profh\/67442_Swift_Overview.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "5172F03F6AE4F0BE22A1853E701154F742B30265"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:profh\/swift_overview.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "69C595B0E990B9C9650DD7769FFE16ECEAE34194"
+    }
+  ]
+}

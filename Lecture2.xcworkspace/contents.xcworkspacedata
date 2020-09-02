@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:0_Intro_to_Swift.playground">
+   </FileRef>
+   <FileRef
+      location = "group:1_Control_Flow.playground">
+   </FileRef>
+   <FileRef
+      location = "group:2_Pattern_Matching.playground">
+   </FileRef>
+   <FileRef
+      location = "group:3_Functions.playground">
+   </FileRef>
+   <FileRef
+      location = "group:4_Fizzbuzz.playground">
+   </FileRef>
+   <FileRef
+      location = "group:5_Classes.playground">
+   </FileRef>
+   <FileRef
+      location = "group:6_Star_Wars_problem.playground">
+   </FileRef>
+   <FileRef
+      location = "group:7_Structs.playground">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/profh/67-443-F20/Lectures_2020/67443_Swift_Overview_F20/8_Enumerations.playground">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/profh/67-443-F20/Lectures_2020/67443_Swift_Overview_F20/9_Optionals.playground">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/profh/67-443-F20/Lectures_2020/67443_Swift_Overview_F20/10_Closures.playground">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/profh/67-443-F20/Lectures_2020/67443_Swift_Overview_F20/11_Generics.playground">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/profh/67-443-F20/Lectures_2020/67443_Swift_Overview_F20/12_Deque.playground">
+   </FileRef>
+   <FileRef
+      location = "group:sandbox.playground">
+   </FileRef>
+</Workspace>
