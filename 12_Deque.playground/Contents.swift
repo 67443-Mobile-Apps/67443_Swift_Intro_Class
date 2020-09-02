@@ -86,3 +86,5 @@ dequeOfCards.peekFirst()
 // Returns "false" since the deque still has elements in it.
 dequeOfCards.isEmpty
 
+
+// Now the question is, how do we create an automated testing suite for this data structure?

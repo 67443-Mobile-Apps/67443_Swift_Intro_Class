@@ -11,22 +11,11 @@
  An important caveat: to receive full credit for this problem, you have to write this function _without_ using the _if_ conditional operator. (You can get partial credit using _if_, but look at 2-pattern-matching playground if you need a clue how to do this.)
  */
 
-//func fizzbuzz(<#parameters#>) -> <#return type#> {
-//  <#function body#>
-//}
+func fizzbuzz(<#parameters#>) -> <#return type#> {
+  <#function body#>
 
-func fizzbuzz(_ n: Int) -> String {
-  switch (n % 3 == 0, n % 5 == 0) {
-  case (true, false):
-    return "Fizz"
-  case (false, true):
-    return "Buzz"
-  case (true, true):
-    return "FizzBuzz"
-  default:
-    return String(n)
-  }
 }
+
 
 // Running the function should yield the following results:
 
@@ -76,21 +65,15 @@ fizzbuzz(15)     // => “FizzBuzz”
  Below you can find a sample of the function being called and what is being returned and the starting function (_may need a tweak..._)
 */
 
-//func fizzbuzzAll(_ num: Any? = nil) -> String {
-//  // if the number exists and can be converted to int, then do the usual
-//  // if not, then print "No integer passed; returning nil" and actually return nil
-//
-//}
+func fizzbuzzAll(_ num: Any? = nil) -> String {
+  // if the number exists and can be converted to int, then do the usual
+  // if not, then print "No integer passed; returning nil" and then actually return nil
 
-func fizzbuzzAll(_ num: Any? = nil) -> String? {
-  if let n = num as? Int {
-    return fizzbuzz(n)
-  }
-  else {
-    print("No integer passed; returning nil")
-    return nil
-  }
+  
+  
 }
+
+
 
 // Run earlier tests for new function and it behaves the same
 fizzbuzzAll(1)      // => “1”
@@ -108,14 +91,4 @@ fizzbuzzAll("FRED")
 fizzbuzzAll()
 
 
-//** Close, but fails...
-//func fizzbuzzAll(_ num: Any? = nil) -> String? {
-//  do {
-////    let int = Int(num)
-//    return fizzbuzz(num as! Int)
-//
-//  } catch {
-//    print("BAD")
-//    return nil
-//  }
-//}
+
