@@ -1,6 +1,6 @@
 //: Optionals
 
-var name:String? //= "Malcolm"
+var name:String? = "Malcolm"
 var password:String? //= "IloveInara"
 var age:Int?
 
