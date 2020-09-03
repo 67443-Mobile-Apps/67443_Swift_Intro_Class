@@ -4,8 +4,8 @@ var name:String? = "Malcolm"
 var password:String? //= "IloveInara"
 var age:Int?
 
-//print(name)
-//print(password)
+print(name)
+print(password)
 //print(age)
 
 // Unwrapping optionals by force

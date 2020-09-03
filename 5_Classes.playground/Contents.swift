@@ -26,6 +26,8 @@ class NamedShape {
   }
 }
 
+var hexshape = NamedShape(name: "Hexagon")
+hexshape.name
 // Use deinit to create a deinitializer if you need to perform some cleanup before the object is deallocated.
 
 
