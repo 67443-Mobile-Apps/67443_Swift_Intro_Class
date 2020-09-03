@@ -4,12 +4,12 @@
 let authentication = (name: "malcolm", password: "IloveInara")
 
 switch authentication {
-case ("wash", "IloveZoe"):
-  print("Hello, Wash!")
-case ("malcolm", "IloveInara"):
-  print("Hello, Mal!")
-default:
-  print("Who are you?")
+  case ("wash", "IloveZoe"):
+    print("Hello, Wash!")
+  case ("malcolm", "IloveInara"):
+    print("Hello, Mal!")
+  default:
+    print("Who are you?")
 }
 
 print("\n")
@@ -18,12 +18,12 @@ print("\n")
 let authentication2 = (name: "malcolm", password: "IloveInara", ipAddress: "127.0.0.1")
 
 switch authentication2 {
-case ("wash", "IloveZoe", _):
-  print("Hello, Wash!")
-case ("malcolm", "IloveInara", _):
-  print("Hello, Mal!")
-default:
-  print("Who are you?")
+  case ("wash", "IloveZoe", _):
+    print("Hello, Wash!")
+  case ("malcolm", "IloveInara", _):
+    print("Hello, Mal!")
+  default:
+    print("Who are you?")
 }
 
 print("\n")
@@ -75,12 +75,12 @@ print("\n")
 let agedUser = (name: "malcolm", password: "IloveInara", age: 50)
 
 switch agedUser {
-case let (name, _, 0 ..< 18):
-  print("\(name) has the energy and time, but no money")
-case let (name, _, 18 ..< 70):
-  print("\(name) has the money and energy, but no time")
-case let (name, _, _):
-  print("\(name) has the time and money, but no energy")
+  case let (name, _, 0 ..< 18):
+    print("\(name) has the energy and time, but no money")
+  case let (name, _, 18 ..< 70):
+    print("\(name) has the money and energy, but no time")
+  case let (name, _, _):
+    print("\(name) has the time and money, but no energy")
 }
 
 print("\n")
